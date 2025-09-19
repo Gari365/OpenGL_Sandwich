@@ -5,9 +5,9 @@
 
 **Deskripsi Tugas**
 •	Bangun ruang yang dimodelkan
-  > Sandwich/ roti lapis yang terdiri dari roti, ham, selada, dan acar.
+  ^ Sandwich/ roti lapis yang terdiri dari roti, ham, selada, dan acar.
 •	Penjelasan singkat mengenai pemodelan yang dibuat
-  > Objek sandwich dibuat dengan menyusun beberapa balok tipis untuk roti dan isiannya. Model ini terdiri dari:
+  ^ Objek sandwich dibuat dengan menyusun beberapa balok tipis untuk roti dan isiannya. Model ini terdiri dari:
     –	Roti atas & bawah (balok tipis warna krem).
     –	Selada (balok tipis, lebih lebar, berwarna hijau, diputar sedikit).
     –	Ham (balok tipis warna merah muda).
@@ -15,7 +15,7 @@
     –	Model ditampilkan dalam ruang 3D menggunakan OpenGL dengan transformasi, pencahayaan, dan pewarnaan.
 
 **Kode Program**
-> File proyek terlampir. Struktur dari folder proyek tersebut yaitu:
+^ File proyek terlampir. Struktur dari folder proyek tersebut yaitu:
   –	main.cpp → File utama untuk inisialisasi OpenGL, load shader, buat model sandwich, dan loop render.
   –	default.vert & default.frag → Shader utama untuk me-render sandwich dengan warna dan normal.
   –	light.vert & light.frag → Shader khusus untuk efek pencahayaan sumber cahaya.
